@@ -58,6 +58,10 @@ version of rx-page-objects.
 * **midways:** FRMW-638-eliminate midway test warnings. ([ef27b2c6](git@github.com:rackerlabs/encore-ui/commit/ef27b2c655ca1375213efb3b2f03968d5554a4ba))
 
 
+<a name="2.0.0-1"></a>
+### 2.0.0-1 (2016-02-03)
+
+
 <a name="1.45.0"></a>
 ## 1.45.0 (2016-02-03)
 
@@ -110,6 +114,16 @@ version of rx-page-objects.
 
 <a name="1.44.1-0"></a>
 ### 1.44.1-0 (2016-01-27)
+
+
+<a name="2.0.0-0"></a>
+## 2.0.0-0 (2016-01-22)
+
+#### Bug Fixes
+
+* **midways:** fix broken midways ([c89fb672](git@github.com:rackerlabs/encore-ui/commit/c89fb6727c84c64c7faab0b0b262d9f376f2217a))
+* **rxDatePicker:** fix spec ([c5ec2042](git@github.com:rackerlabs/encore-ui/commit/c5ec204240931d41186d15ba3cb27f83e04c8408))
+* **scope:** rxMultiSelect ([071df5c6](git@github.com:rackerlabs/encore-ui/commit/071df5c610463efc138adcb1d100dcb3cad5f5a8))
 
 
 <a name="1.44.0"></a>
