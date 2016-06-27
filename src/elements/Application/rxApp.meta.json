@@ -1,7 +1,19 @@
 {
-    "displayName": "rxApp",
-    "stability": "unstable",
-    "description": "",
-    "isLegacy": true,
-    "keywords": []
+    "displayName": "application",
+    "stability": "stable",
+    "description": "create the HTML necessary for a common Encore layout",
+    "api": "directive:rxApp",
+    "keywords": [
+      "app",
+      "application",
+      "nav",
+      "navigation",
+      "nav item"
+      "nav link"
+      "page"
+      "rxApp",
+      "rxAppNav",
+      "rxAppNavItem",
+      "rxPage"
+    ]
 }

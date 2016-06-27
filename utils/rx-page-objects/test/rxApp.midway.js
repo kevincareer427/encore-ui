@@ -2,7 +2,7 @@ describe('rxApp', function () {
     var rxAppCustom, rxAppStandard;
 
     before(function () {
-        demoPage.go('#/components/rxApp');
+        demoPage.go('#/elements/Application');
         rxAppCustom = encore.rxApp.initialize($('#custom-rxApp'));
         rxAppStandard = encore.rxApp.initialize($('#standard-rxApp'));
     });
@@ -58,7 +58,7 @@ describe('rxPage', function () {
     var standardPage, customPage;
 
     before(function () {
-        demoPage.go('#/components/rxApp');
+        demoPage.go('#/elements/Application');
         standardPage = encore.rxPage.initialize($('#standard-rxApp .rx-page'));
         customPage = encore.rxPage.initialize($('#custom-rxApp .rx-page'));
     });
