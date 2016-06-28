@@ -1,4 +1,4 @@
-angular.module('encore.ui.rxApp')
+angular.module('encore.ui.elements')
 /**
  * @ngdoc directive
  * @name rxApp.directive:rxAccountUsers

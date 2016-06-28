@@ -1,4 +1,4 @@
-describe('encore.ui.rxApp', function () {
+describe('encore.ui.elements', function () {
     describe('rxAppNav', function () {
         var scope, compile, el;
         var template = '<rx-app-nav items="menuItems" level="1"></rx-app-nav>';
@@ -10,7 +10,7 @@ describe('encore.ui.rxApp', function () {
 
         beforeEach(function () {
             // load module
-            module('encore.ui.rxApp');
+            module('encore.ui.elements');
 
             // load templates
             module('templates/rxAppNav.html');

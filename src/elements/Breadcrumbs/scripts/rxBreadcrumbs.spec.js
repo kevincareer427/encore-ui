@@ -21,7 +21,7 @@ describe('elements:Breadcrumbs', function () {
         // Load the service's module
         module('encore.ui.utilities');
         module('encore.ui.elements');
-        module('encore.ui.rxApp');
+        // module('encore.ui.rxApp');
 
         // load the template
         module('templates/rxBreadcrumbs.html');

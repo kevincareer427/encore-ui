@@ -1,11 +1,11 @@
-describe('encore.ui.rxApp', function () {
+describe('encore.ui.elements', function () {
     describe('rxPage', function () {
         var scope, compile, el, pageTitle;
         var template = '<rx-page title="myCustomTitle"></rx-page>';
 
         beforeEach(function () {
             // load module
-            module('encore.ui.rxApp');
+            module('encore.ui.elements');
             module('encore.ui.utilities');
 
             // load templates

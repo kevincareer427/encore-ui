@@ -1,4 +1,4 @@
-describe('encore.ui.rxApp', function () {
+describe('encore.ui.elements', function () {
     describe('rxApp', function () {
         describe('default', function () {
             var scope, scopeCustomNav, collapsibleScope, compile, rootScope, el, elCustom, elCollapsible,
@@ -41,7 +41,7 @@ describe('encore.ui.rxApp', function () {
 
             beforeEach(function () {
                 // load module
-                module('encore.ui.rxApp');
+                module('encore.ui.elements');
                 module('encore.ui.utilities');
                 module('encore.ui.rxNotify');
 
@@ -52,6 +52,7 @@ describe('encore.ui.rxApp', function () {
                 module('templates/rxPage.html');
                 module('templates/rxAppSearch.html');
                 module('templates/rxAccountSearch.html');
+                module('templates/rxFeedback.html');
 
                 module(function ($provide) {
                     $provide.value('rxNotify', mockNotify);
@@ -217,7 +218,7 @@ describe('encore.ui.rxApp', function () {
             };
 
             beforeEach(function () {
-                module('encore.ui.rxApp');
+                module('encore.ui.elements');
                 module('encore.ui.utilities');
                 module('encore.ui.rxNotify');
                 module(function ($provide) {
@@ -274,7 +275,7 @@ describe('encore.ui.rxApp', function () {
 
             beforeEach(function () {
                 // load module
-                module('encore.ui.rxApp');
+                module('encore.ui.elements');
                 module('encore.ui.utilities');
 
                 // load templates
@@ -399,7 +400,7 @@ describe('encore.ui.rxApp', function () {
                     .config(function (routesCdnPathProvider) {
                         routesCdnPathProvider.customURL = customURL;
                     });
-                module('encore.ui.rxApp', 'testApp');
+                module('encore.ui.elements', 'testApp');
 
                 // Inject in angular constructs
                 inject(function ($rootScope, $compile, encoreRoutes, $httpBackend, routesCdnPath) {
@@ -472,7 +473,7 @@ describe('encore.ui.rxApp', function () {
 
             beforeEach(function () {
                 // load module
-                module('encore.ui.rxApp');
+                module('encore.ui.elements');
                 module('encore.ui.utilities');
                 module('encore.ui.rxNotify');
 

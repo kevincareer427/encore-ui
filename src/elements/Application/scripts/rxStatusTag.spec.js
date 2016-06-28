@@ -1,4 +1,4 @@
-describe('encore.ui.rxApp', function () {
+describe('encore.ui.elements', function () {
     describe('rxStatusTag', function () {
         var scope, compile, rootScope, el, emptyEl, badEl;
         var standardTemplate = '<rx-status-tag status="alpha"></rx-status-tag>';
@@ -7,7 +7,7 @@ describe('encore.ui.rxApp', function () {
 
         beforeEach(function () {
             // load module
-            module('encore.ui.rxApp');
+            module('encore.ui.elements');
 
             // Inject in angular constructs
             inject(function ($rootScope, $compile) {

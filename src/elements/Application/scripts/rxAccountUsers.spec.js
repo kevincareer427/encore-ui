@@ -1,4 +1,4 @@
-describe('encore.ui.rxApp', function () {
+describe('encore.ui.elements', function () {
     describe('rxAccountUsers', function () {
         var scope, compile, userSelect, users, encoreRoutesMock;
         var validTemplate = '<rx-account-users></rx-account-users>';
@@ -35,7 +35,7 @@ describe('encore.ui.rxApp', function () {
                     };
                 });
 
-            module('encore.ui.rxApp', 'testDirective');
+            module('encore.ui.elements', 'testDirective');
             module('templates/rxAccountUsers.html');
 
             inject(function ($rootScope, $compile, $templateCache, $location, $route, $q, encoreRoutes) {

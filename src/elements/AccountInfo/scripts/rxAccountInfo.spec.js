@@ -83,6 +83,7 @@ describe('elements:rxAccountInfo', function () {
             // load templates
             module('templates/rxAccountInfo.html');
             module('templates/rxAccountInfoBanner.html');
+            module('templates/rxAccountUsers.html');
 
             // Inject in angular constructs
             inject(function ($location, $rootScope, $compile, $q, Encore, SupportAccount,

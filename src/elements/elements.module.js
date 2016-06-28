@@ -16,5 +16,10 @@
  * * {@link elements.directive:rxTimePicker rxTimePicker}
  */
 angular.module('encore.ui.elements', [
-    'encore.ui.utilities'
+    'cfp.hotkeys',
+    'encore.ui.utilities',
+    'encore.ui.rxEnvironment',
+    'encore.ui.rxPermission',
+    'ngRoute',
+    'ngSanitize'
 ]);

@@ -1,4 +1,4 @@
-describe('encore.ui.rxApp', function () {
+describe('encore.ui.elements', function () {
     describe('rxAppNavItem', function () {
         var scope, compile, el, someProp, rxVisibility, rxEnvironmentUrlFilter, provide;
         var template = '<rx-app-nav-item item="item"></rx-app-nav-item>';
@@ -109,7 +109,7 @@ describe('encore.ui.rxApp', function () {
                 }
             };
 
-            module('encore.ui.rxApp');
+            module('encore.ui.elements');
             module('encore.ui.rxCompile');
 
             // load templates
